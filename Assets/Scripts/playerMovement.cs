@@ -5,12 +5,13 @@ using UnityEngine;
 public class playerMovement : MonoBehaviour
 {
     public float speed = 25.0F;
-    public float jumpSpeed = 8.0F;
     public float gravity = 20.0F;
     private Vector3 moveDirection = Vector3.zero;
     private float turner;
     private float looker;
     public float sensitivity = 5;
+
+    private float forwardSpeed;
 
     // Use this for initialization
     void Start()
@@ -26,13 +27,19 @@ public class playerMovement : MonoBehaviour
         if (controller.isGrounded)
         {
             //Feed moveDirection with input.
-            moveDirection = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
+            if (Input.GetMouseButton(0))
+            {
+                forwardSpeed = 1;
+            }
+            else
+            {
+                forwardSpeed = 0;
+            }
+            moveDirection = new Vector3(forwardSpeed, 0);
             moveDirection = transform.TransformDirection(moveDirection);
             //Multiply it by speed.
             moveDirection *= speed;
-            //Jumping
-            if (Input.GetButton("Jump"))
-                moveDirection.y = jumpSpeed;
+
 
         }
         turner = Input.GetAxis("Mouse X") * sensitivity;
