@@ -4,5 +4,44 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Prologue1.unity
+    guid: 36591a98fa18e704994ca29ab7b9ce85
+  - enabled: 1
+    path: Assets/Scenes/Prologue2.unity
+    guid: 8f796d3250b6aaa41b5e720ab7409a70
+  - enabled: 1
+    path: Assets/Scenes/Prologue3.unity
+    guid: e2041ef9495172e4b89f2af584470b79
+  - enabled: 1
+    path: Assets/Scenes/Prologue4.unity
+    guid: 8fcaea4e628694144a7def997f957c16
+  - enabled: 1
+    path: Assets/Scenes/Prologue5.unity
+    guid: 29f432894cb69f345aa435e15c0bf876
+  - enabled: 1
+    path: Assets/Scenes/Prologue6.unity
+    guid: f51563e36e1533f40bbb1c50211c82a3
+  - enabled: 1
+    path: Assets/Scenes/Prologue7.unity
+    guid: c2d59f0caa062ab45919eebb04aef65e
+  - enabled: 1
+    path: Assets/Scenes/Prologue8.unity
+    guid: a6eadd767d7340b45b11307b8dc9d492
+  - enabled: 1
+    path: Assets/Scenes/Prologue9.unity
+    guid: d641e9f557cec6f4e9949cb69b123616
+  - enabled: 1
+    path: Assets/Scenes/Prologue10.unity
+    guid: 1a3c7fc6e2b980644a0c8d186385ac9f
+  - enabled: 1
+    path: Assets/Scenes/Prologue11.unity
+    guid: 6b9af0d2d157c2b4a802c86527d03bed
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 4e3b63e33398f014c80120e99ab3e8a5
+  - enabled: 1
+    path: Assets/Scenes/gamescene.unity
+    guid: 36f90e1274a455748872a4c854065506
   m_configObjects: {}
